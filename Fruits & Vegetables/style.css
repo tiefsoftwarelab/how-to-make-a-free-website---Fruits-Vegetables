@@ -1,0 +1,181 @@
+/*link Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient( -20deg, #068645, #00ff6f);
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px 100px;
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+}
+.logo{
+  position: relative;
+  height: 60px;
+  width: 110px;
+  left: -10px;
+}
+ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  right: -55%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.8s;
+}
+.active, a:hover{
+  border-bottom: 1px solid #021507;
+}
+li i{
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+ li  i:hover{
+  color: #fff;
+  scale: 120%;
+ }
+ section{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+ }
+ hr{
+  position: absolute;
+  margin: 25% -30px;
+  height: 2px;
+  border: none;
+  background: #fff;
+  width: 25%;
+  transform: rotate(90deg);
+ }
+.typography{
+  position: absolute;
+  height: 300px;
+  width: 450px;
+  margin: 220px 200px;
+}
+h3{
+  font-size: 15px;
+  margin: 15px 0px;
+}
+h2{
+  font-size: 20px;
+}
+h1{
+  font-size: 62px;
+  letter-spacing: -5px;
+  font-weight: 500;
+  font-family: cursive;
+}
+button{
+  padding: 10px 50px;
+  font-size: 15px;
+  border: none;  
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0.7s;
+}
+button:hover{
+  padding: 10px 52px;
+  font-weight: 600;
+  transition: 0.2;
+}
+.products{
+  position: absolute;
+  height: 350px;
+  width: 400px;
+  top: 200px;
+  right: 20px;
+}
+.products img:nth-child(1){
+  position: absolute;
+  left: -130px;
+}
+.products img:nth-child(2){
+  position: absolute;
+  left: 90px;
+  top: -80px;
+  scale: 110%;
+  transform: rotate(-59deg);
+}
+.products img:nth-child(3){
+  position: absolute;
+  scale: 55%;
+  top: 40px;
+  left: -50px;
+}
+.social{
+  position: absolute;
+  height: 40px;
+  width: 120px;
+  margin: 10px 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 84%;
+}
+.social i{
+  scale: 120%;
+}
+.social .fa-brands{
+  font-size: 30px;
+  margin: 20px;
+  text-shadow: 1px 7px 14px #00000096;
+  cursor: pointer;
+  transition: 1s;
+}
+.social .fa-brands:hover{
+  transform: translateY(-10px);
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
